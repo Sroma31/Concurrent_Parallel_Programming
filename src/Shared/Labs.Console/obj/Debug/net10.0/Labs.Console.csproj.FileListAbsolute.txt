@@ -9,3 +9,4 @@ C:\Users\samuele.romagnoli\Desktop\Concurrent_Parallel_Programming\src\Shared\La
 C:\Users\samuele.romagnoli\Desktop\Concurrent_Parallel_Programming\src\Shared\Labs.Console\obj\Debug\net10.0\refint\Labs.Console.dll
 C:\Users\samuele.romagnoli\Desktop\Concurrent_Parallel_Programming\src\Shared\Labs.Console\obj\Debug\net10.0\Labs.Console.pdb
 C:\Users\samuele.romagnoli\Desktop\Concurrent_Parallel_Programming\src\Shared\Labs.Console\obj\Debug\net10.0\ref\Labs.Console.dll
+C:\Users\samuele.romagnoli\Desktop\Concurrent_Parallel_Programming\src\Shared\Labs.Console\obj\Debug\net10.0\Labs.Console.sourcelink.json
