@@ -14,16 +14,15 @@ public class SemaphoreExperiment
         //In this case, the resource is a semaphore that allows only one thread to access it at a time
         // 1° parameter: initialCount: the number of threads that can enter the semaphore at the same time
         // 2° parameter: maxCount: the maximum number of threads that can enter the semaphore at the same time
-        var resource_1= new SemaphoreSlim(1,1);//semaphoreslim is a lightweight semaphore that can be used to limit the number of threads that can access a resource concurrently
+        var resource_1= new SemaphoreSlim(2,2);//semaphoreslim is a lightweight semaphore that can be used to limit the number of threads that can access a resource concurrently
         
         // Workers that will try to access the resource
         Thread[] workers= new Thread[5];
-        int idWorker=0;
 
         //access to shared resource:
         for (int i=0; i<workers.Length; i++)
         {
-            idWorker= i;
+            int idWorker= i+1; // Capture the current value of i for the thread
             workers[i]= new Thread(() =>
             {
                 Console.WriteLine($"Worker {idWorker} is waiting to access resource_1");
