@@ -23,7 +23,7 @@ public class SemaphoreExperiment
         for (int i=0; i<workers.Length; i++)
         {
             int idWorker= i+1; // Capture the current value of i for the thread
-            workers[i]= new Thread(() =>
+            workers[i]= new Thread(() =>//instead of lambda expression, we can use a method that takes the idWorker as parameter
             {
                 Console.WriteLine($"Worker {idWorker} is waiting to access resource_1");
                 resource_1.Wait(); // Wait for the semaphore to be available
@@ -35,15 +35,6 @@ public class SemaphoreExperiment
         }
             
             
-
-
-
-
-
-
-
-
-
 
 
         // Create and start the workers

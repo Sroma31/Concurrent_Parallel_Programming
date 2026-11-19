@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreadDemo.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ffae258a6a5864db767e9cdc806d912acf64ddc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f9d6b7596222bf72305ff35e91014dbb8bd7bac")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreadDemo.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreadDemo.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
