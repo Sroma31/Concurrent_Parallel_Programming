@@ -1,7 +1,7 @@
 ﻿using SynchronizationDemo.Domain;
 
 var semaforo = new SemaphoreExperiment();
-
+var producerConsumer= new ProducerConsumerExperiment();
 bool termina = false;
 
 while (!termina)
@@ -9,6 +9,7 @@ while (!termina)
     Console.WriteLine();
     Console.WriteLine("=== SYNCHRONIZATION DEMO ===");
     Console.WriteLine("1. Semaforo");
+    Console.WriteLine("2. ProducerConsumer");
     Console.WriteLine("0. Esci");
     Console.Write("Scelta: ");
 
@@ -19,7 +20,8 @@ while (!termina)
             break;
 
         case "2":
-            break;
+            producerConsumer.Run();
+            break; 
 
         case "3":
             break;

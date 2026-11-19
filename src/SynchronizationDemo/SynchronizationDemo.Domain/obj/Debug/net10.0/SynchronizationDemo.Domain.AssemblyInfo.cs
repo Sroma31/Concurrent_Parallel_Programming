@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SynchronizationDemo.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f9d6b7596222bf72305ff35e91014dbb8bd7bac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23367f01ff405ba5687d4e2a071965bf0b9c7170")]
 [assembly: System.Reflection.AssemblyProductAttribute("SynchronizationDemo.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SynchronizationDemo.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
